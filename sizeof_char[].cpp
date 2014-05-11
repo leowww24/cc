@@ -8,7 +8,7 @@
 #include<iostream>
 using namespace std;
 
-//str[] tuiHua
+//str[]作为函数形参则自动退化为指针类型！
 void foo(char str[100])
 {
 	cout<<sizeof(str)<<endl;
