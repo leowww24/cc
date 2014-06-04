@@ -23,6 +23,8 @@ int main()
 		<<sizeof(p)<<endl		//p指针的大小
 		<<sizeof(*p)<<endl		//p指针指向的string类的大小
 		<<sizeof(string)<<endl;	//string类的大小
+
+	//sizeof(strArr)为整个数组所占的字节数
 	for(int i=0;i<sizeof(strArr)/sizeof(string);++i)
 		cout<<strArr[i];
 	//错误的写法：sizeof(p)/sizeof(string)
